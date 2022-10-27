@@ -13,7 +13,7 @@ echo "local address / Foreign address / null / receiced (KB)/ Sent (KB)" >> WebL
 # Get its PID
             PID=$!
 # Wait for 2 seconds
-            sleep 100
+            sleep 1
 # Kill it
             kill $PID
 
